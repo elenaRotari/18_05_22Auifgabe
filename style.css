@@ -6,7 +6,7 @@
 }
 .container {
   position: relative;
-  width: 25%;
+  width: 23%;
   margin: 15% auto;
 }
 .formcontainer {
@@ -27,7 +27,7 @@ h1 {
   color: rgb(214, 60, 42);
   text-decoration: none;
   margin-top: 5rem;
-  font-weight: bold;
+  font-weight: 500;
   font-family: "Roboto", sans-serif;
 }
 .formcontainer label {
@@ -44,12 +44,13 @@ button {
 }
 
 button {
-  background-color: rgb(214, 60, 42);
+  background-color: rgb(221, 62, 39);
   border: none;
   color: white;
   font-weight: 900;
   font-family: "Roboto", sans-serif;
   margin-bottom: 2rem;
+  font-size: 1.1rem;
 }
 .container p {
   font-family: "Roboto", sans-serif;
