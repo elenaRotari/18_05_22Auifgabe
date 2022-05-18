@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&family=Arizonia&family=Bangers&family=Berkshire+Swash&family=Concert+One&family=Dancing+Script:wght@700&family=Fleur+De+Leah&family=Fredericka+the+Great&family=Great+Vibes&family=Henny+Penny&family=Imperial+Script&family=Mea+Culpa&family=Oleo+Script+Swash+Caps:wght@400;700&family=Orelega+One&family=Oswald:wght@500;700&family=Permanent+Marker&family=Playfair+Display:ital,wght@0,800;0,900;1,400;1,600;1,700;1,800;1,900&family=Raleway+Dots&family=Roboto:ital,wght@0,400;0,700;0,900;1,100;1,300&family=Smokum&family=Special+Elite&family=Stint+Ultra+Condensed&family=Water+Brush&family=Yeseva+One&family=Zen+Loop:ital@0;1&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  position: relative;
+  width: 25%;
+  margin: 15% auto;
+}
+.formcontainer {
+  margin-top: 2.5rem;
+}
+
+.container > *,
+.formcontainer > div {
+  margin-bottom: 1rem;
+}
+h1 {
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 0.5rem;
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+.link {
+  color: rgb(214, 60, 42);
+  text-decoration: none;
+  margin-top: 5rem;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+.formcontainer label {
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+.formcontainer input,
+button {
+  width: 100%;
+  border: none;
+  background-color: rgb(239, 237, 237);
+  border-radius: 0.3rem;
+  padding: 1rem;
+}
+
+button {
+  background-color: rgb(214, 60, 42);
+  border: none;
+  color: white;
+  font-weight: 900;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 2rem;
+}
+.container p {
+  font-family: "Roboto", sans-serif;
+}
