@@ -21,13 +21,13 @@
   list-style-type: none;
 }
 img {
-  width: 145px 32px;
+  width: 145px;
   height: 32px;
 }
 
 h2 {
   font-family: "Inter", sans-serif;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.2rem;
   font-size: 1.87rem;
   color: rgba(17, 24, 39, 1);
 }
@@ -43,7 +43,7 @@ h2 {
   text-decoration: underline;
 }
 .formcontainer {
-  margin-top: 0.5rem;
+  margin-top: 0.2rem;
 }
 .formcontainer > * {
   margin-top: 1rem;
@@ -92,14 +92,14 @@ input:focus {
   color: rgba(75, 85, 99, 1);
   margin-bottom: 0.7rem;
 }
-
-.footer > * {
+.footer {
+  position: absolute;
+  bottom: 3rem;
+  width: 100%;
   display: flex;
-  align-items: center;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
-  margin-top: 275px;
+  align-items: center;
 }
 
 /* h3 {
@@ -110,22 +110,22 @@ input:focus {
   margin: 0 0 1.4rem;
   text-transform: none;
 } */
-.footer div .childFooter a {
+.footer .childFooter p a {
   font-family: "Inter", sans-serif;
   color: #555;
   font-weight: 700;
   font-size: 16px;
 }
 
-.footer div .childFooter {
+.footer .childFooter {
   margin: 0 0 1.5rem;
 }
-.footer div :nth-child(2) {
+.footer :nth-child(2) {
   font-size: 0.8rem;
   font-family: "Inter", sans-serif;
   color: rgba(75, 85, 99, 1);
 }
-.footer div :nth-child(3) {
+.footer :nth-child(3) {
   font-size: 0.8rem;
   font-family: "Inter", sans-serif;
   color: rgba(75, 85, 99, 1);
@@ -138,7 +138,7 @@ input:focus {
   font-weight: 700;
   text-decoration: none;
 }
-.footer div .childFooter p {
+.footer .childFooter p {
   font-size: 16px;
   font-weight: 400;
   font-family: "Inter", sans-serif;
